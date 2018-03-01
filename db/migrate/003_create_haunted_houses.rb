@@ -6,7 +6,7 @@ class HauntedHouses < ActiveRecord::Migration
       t.string :location
       t.string :theme
       t.integer :price
-      t.integer :costume_inventory
+      t.boolean :costume_inventory
       t.integer :num_of_employees
       t.boolean :still_in_business
       t.timestamps
