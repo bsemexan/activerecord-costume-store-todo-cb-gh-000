@@ -8,7 +8,7 @@ class HauntedHouses < ActiveRecord::Migration
       t.integer :price
       t.boolean :family_friendly
       t.integer :num_of_employees
-      t.boolean :still_in_business
+      t.string :descrition
       t.timestamps
     end
   end
