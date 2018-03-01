@@ -3,7 +3,7 @@ class CostumeStores < ActiveRecord::Migration
   def change
     create_table :costumes do |t|
       t.string :name
-      t.integer :location
+      t.string :location
       t.string :size
       t.url :image_url
       t.timestamps
