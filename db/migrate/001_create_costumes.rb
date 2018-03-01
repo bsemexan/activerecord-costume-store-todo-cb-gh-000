@@ -13,8 +13,7 @@ class CreateCostumes < ActiveRecord::Migration
       t.string :name
       t.integer :price
       t.string :size
-      t.string :lead
-      t.boolean :image_url
+      t.url :image_url
     end
   end
 end
